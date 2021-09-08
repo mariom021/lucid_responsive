@@ -1,0 +1,91 @@
+@media(max-width:575px) and (min-width:0px){
+    .navbar-light .navbar-nav .nav-link {
+        margin-left:0px;
+        display: inline-block;
+        margin-bottom: 15px;
+
+}
+.nav-item{
+    text-align: center;
+}
+.phone {
+    display: none;
+}
+
+.banner_content {
+    text-align: center;
+    margin: auto;
+}
+.price {
+    margin-bottom: 30px;
+}
+.contact_form {
+    width: 75%;
+    bottom: -25%;
+   
+}
+.customize_section h1::before {
+  left: 41%;
+}
+.customize_section h1::after {
+   right: 41%;
+    
+}
+.customize_section {
+    text-align: center;
+}
+.device_section {
+    text-align: center;
+}
+.device_section h1::before {
+   left: 41%;
+}
+.device_section h1::after {
+    right: 41%;
+}
+.device_icon ul li {
+    text-align: initial;
+    margin-left: 150px;
+}
+
+}
+@media(max-width:467px) and (min-width:0px){
+    .btn_download {
+    
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .btn_view {
+        margin-bottom: 15px;
+    }
+    .theme_section h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .theme_btn {
+      
+        text-align: center;
+    }
+
+}
+@media(max-width:768px) and (min-width:576px){
+    .btn_download {
+        margin-bottom: 15px;
+    }
+    .btn_view {
+        margin-bottom: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-left:0px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .nav-item{
+        text-align: center;
+    }
+}
+@media(max-width:1024px) and (min-width:769px){
+    .btn_view {
+        margin-bottom: 15px;
+    }
+}
